@@ -1,0 +1,501 @@
+Patient_ID,Procedure_Name,Age,Gender,BMI,Diabetes_Status,Wound_Class,Procedure_Duration,SSI_Type
+P001,Kidney transplant,69,Female,25.0,No,Clean-contaminated,203,Superficial
+P002,Coronary artery bypass graft with both chest and donor site incisions,53,Female,32.7,Yes,Dirty,153,Deep
+P003,Cesarean section,55,Female,23.0,No,Clean-contaminated,199,Superficial
+P004,Limb amputation,54,Male,37.8,Yes,Dirty,98,Deep
+P005,Craniotomy,78,Male,33.1,No,Dirty,97,Organ
+P006,Carotid endarterectomy,41,Male,33.0,No,Clean,214,Superficial
+P007,Colon surgery,80,Male,30.0,No,Clean,174,Organ
+P008,Ventricular shunt,51,Female,19.0,No,Clean,256,Organ
+P009,Small bowel surgery,59,Female,21.0,Yes,Contaminated,60,Deep
+P010,Exploratory laparotomy,34,Female,19.9,No,Clean,272,Superficial
+P011,Herniorrhaphy,61,Female,35.9,No,Contaminated,224,Superficial
+P012,Kidney transplant,42,Male,27.2,Yes,Dirty,89,Organ
+P013,Cesarean section,75,Female,23.6,No,Contaminated,117,Superficial
+P014,Coronary artery bypass graft with chest incision only,31,Female,23.6,No,Dirty,248,Deep
+P015,Breast surgery,74,Female,31.6,Yes,Clean,230,Superficial
+P016,Vaginal hysterectomy,55,Female,36.9,Yes,Clean-contaminated,132,Organ
+P017,Craniotomy,75,Male,18.8,Yes,Contaminated,193,Organ
+P018,Hip prosthesis,33,Male,37.4,Yes,Clean-contaminated,167,Deep
+P019,Cardiac surgery,39,Female,22.8,Yes,Dirty,66,Superficial
+P020,Peripheral vascular bypass surgery,48,Female,39.1,No,Contaminated,153,Superficial
+P021,Peripheral vascular bypass surgery,38,Male,37.9,Yes,Contaminated,178,Organ
+P022,Spinal fusion,68,Female,28.8,Yes,Clean,88,Superficial
+P023,Shunt for dialysis,77,Female,34.9,Yes,Clean-contaminated,271,Deep
+P024,Liver transplant,24,Male,36.9,No,Clean-contaminated,176,Deep
+P025,Abdominal hysterectomy,48,Female,18.9,Yes,Clean-contaminated,227,Superficial
+P026,Peripheral vascular bypass surgery,78,Female,32.2,No,Contaminated,72,Deep
+P027,Coronary artery bypass graft with both chest and donor site incisions,46,Female,22.9,Yes,Clean-contaminated,263,Superficial
+P028,Herniorrhaphy,60,Male,21.8,Yes,Contaminated,101,Deep
+P029,Kidney transplant,28,Male,19.2,Yes,Dirty,169,Superficial
+P030,Craniotomy,47,Male,28.0,Yes,Contaminated,221,Deep
+P031,Kidney surgery,63,Male,20.8,Yes,Clean,245,Deep
+P032,Cardiac surgery,66,Male,21.3,No,Dirty,229,Deep
+P033,Neck surgery,78,Male,28.9,Yes,Clean-contaminated,241,Superficial
+P034,Liver transplant,18,Female,36.6,No,Dirty,131,Organ
+P035,Peripheral vascular bypass surgery,47,Male,25.0,No,Dirty,246,Organ
+P036,Colon surgery,27,Male,37.4,Yes,Contaminated,266,Superficial
+P037,Colon surgery,32,Male,27.5,No,Dirty,260,Organ
+P038,Shunt for dialysis,71,Female,26.2,Yes,Clean-contaminated,75,Deep
+P039,Ovarian surgery,79,Male,21.1,No,Contaminated,154,Organ
+P040,Vaginal hysterectomy,68,Male,21.5,Yes,Contaminated,242,Organ
+P041,Cardiac surgery,27,Male,25.2,No,Clean-contaminated,77,Deep
+P042,Coronary artery bypass graft with chest incision only,57,Male,24.5,Yes,Dirty,170,Deep
+P043,Spleen surgery,75,Male,37.6,Yes,Dirty,69,Superficial
+P044,Spinal fusion,47,Female,39.2,Yes,Dirty,183,Superficial
+P045,Cardiac surgery,61,Female,32.9,No,Clean,131,Superficial
+P046,Spleen surgery,53,Female,21.2,Yes,Clean,82,Organ
+P047,Open reduction of fracture,30,Male,32.4,No,Dirty,85,Deep
+P048,Carotid endarterectomy,22,Male,38.9,No,Contaminated,198,Deep
+P049,Abdominal aortic aneurysm repair,46,Female,36.1,No,Clean,195,Deep
+P050,"Bile duct, liver or pancreatic surgery",65,Male,37.3,No,Clean,267,Organ
+P051,Kidney transplant,37,Female,28.2,No,Dirty,240,Superficial
+P052,Kidney transplant,55,Male,26.4,No,Clean-contaminated,244,Superficial
+P053,Coronary artery bypass graft with chest incision only,64,Male,33.1,Yes,Clean-contaminated,76,Deep
+P054,Liver transplant,48,Male,21.8,No,Dirty,64,Organ
+P055,Coronary artery bypass graft with chest incision only,35,Male,33.8,Yes,Contaminated,223,Organ
+P056,Rectal surgery,38,Male,36.0,No,Clean-contaminated,289,Superficial
+P057,Cesarean section,21,Female,21.4,No,Clean-contaminated,227,Superficial
+P058,Hip prosthesis,52,Male,21.0,No,Contaminated,110,Deep
+P059,Carotid endarterectomy,54,Female,28.8,No,Clean,289,Deep
+P060,Cardiac surgery,23,Female,20.2,No,Clean-contaminated,153,Superficial
+P061,Spleen surgery,60,Female,37.4,No,Contaminated,195,Superficial
+P062,Colon surgery,21,Male,22.2,Yes,Clean,210,Deep
+P063,Exploratory laparotomy,75,Male,38.4,Yes,Clean-contaminated,115,Organ
+P064,Ovarian surgery,75,Male,39.0,No,Dirty,227,Deep
+P065,Laminectomy,68,Male,22.4,No,Clean,62,Deep
+P066,Coronary artery bypass graft with both chest and donor site incisions,64,Female,24.6,No,Dirty,182,Superficial
+P067,Gastric surgery,71,Male,36.3,No,Clean-contaminated,91,Organ
+P068,Carotid endarterectomy,58,Male,30.4,No,Contaminated,190,Organ
+P069,Gastric surgery,79,Female,37.5,No,Clean,81,Deep
+P070,Cardiac surgery,80,Female,32.2,Yes,Clean,205,Organ
+P071,Carotid endarterectomy,28,Female,28.0,No,Clean-contaminated,227,Superficial
+P072,Breast surgery,19,Female,38.4,No,Dirty,233,Organ
+P073,Breast surgery,75,Male,36.2,No,Dirty,261,Deep
+P074,Abdominal aortic aneurysm repair,23,Male,19.7,Yes,Dirty,233,Deep
+P075,Ovarian surgery,28,Male,32.5,Yes,Clean-contaminated,237,Deep
+P076,Kidney transplant,64,Female,37.2,Yes,Contaminated,199,Superficial
+P077,Abdominal aortic aneurysm repair,21,Female,37.6,Yes,Dirty,119,Superficial
+P078,Spinal fusion,20,Female,30.5,No,Clean,113,Organ
+P079,Abdominal hysterectomy,33,Female,34.4,No,Contaminated,289,Superficial
+P080,Open reduction of fracture,28,Male,21.0,Yes,Contaminated,284,Deep
+P081,Gastric surgery,40,Female,19.2,No,Clean-contaminated,88,Superficial
+P082,Craniotomy,21,Male,20.9,Yes,Contaminated,134,Superficial
+P083,Thyroid and/or parathyroid surgery,51,Male,20.0,No,Clean-contaminated,84,Deep
+P084,Ventricular shunt,71,Female,18.7,Yes,Contaminated,104,Deep
+P085,Laminectomy,51,Male,39.9,Yes,Clean-contaminated,292,Superficial
+P086,Breast surgery,42,Female,31.6,Yes,Contaminated,121,Organ
+P087,Coronary artery bypass graft with both chest and donor site incisions,76,Male,20.3,No,Contaminated,72,Organ
+P088,Spinal fusion,18,Female,39.6,No,Clean-contaminated,96,Superficial
+P089,Abdominal hysterectomy,52,Male,28.7,No,Clean-contaminated,152,Superficial
+P090,Ventricular shunt,22,Female,29.8,Yes,Clean,130,Superficial
+P091,Rectal surgery,34,Male,25.6,No,Dirty,88,Organ
+P092,Craniotomy,80,Female,26.3,No,Contaminated,153,Superficial
+P093,Vaginal hysterectomy,37,Male,30.7,Yes,Clean-contaminated,262,Organ
+P094,Peripheral vascular bypass surgery,48,Male,28.9,No,Clean-contaminated,283,Organ
+P095,Abdominal hysterectomy,41,Male,24.6,Yes,Dirty,171,Organ
+P096,Vaginal hysterectomy,36,Male,35.1,No,Contaminated,87,Organ
+P097,Open reduction of fracture,73,Male,38.3,Yes,Clean,287,Superficial
+P098,Rectal surgery,52,Male,33.2,No,Clean-contaminated,112,Deep
+P099,Herniorrhaphy,22,Female,28.8,No,Clean,114,Organ
+P100,Cardiac surgery,73,Female,33.4,Yes,Clean,183,Organ
+P101,Colon surgery,18,Female,22.7,Yes,Contaminated,160,Superficial
+P102,Kidney transplant,23,Female,26.8,No,Clean-contaminated,158,Deep
+P103,Spinal fusion,53,Male,31.1,No,Dirty,206,Organ
+P104,Craniotomy,59,Female,20.8,Yes,Dirty,263,Superficial
+P105,Small bowel surgery,30,Female,38.5,No,Clean-contaminated,101,Superficial
+P106,Open reduction of fracture,48,Male,29.4,No,Clean-contaminated,129,Superficial
+P107,Hip prosthesis,18,Female,25.6,No,Clean-contaminated,254,Organ
+P108,Breast surgery,40,Female,37.0,Yes,Dirty,273,Deep
+P109,Herniorrhaphy,57,Male,34.3,Yes,Clean,107,Deep
+P110,Kidney surgery,52,Female,30.3,Yes,Dirty,206,Superficial
+P111,Hip prosthesis,53,Female,24.9,No,Clean,161,Organ
+P112,Laminectomy,76,Male,24.3,No,Clean,230,Organ
+P113,Colon surgery,61,Male,23.0,No,Dirty,176,Deep
+P114,Pacemaker surgery,40,Male,36.5,No,Clean,269,Superficial
+P115,Gallbladder surgery,18,Male,33.1,Yes,Contaminated,218,Superficial
+P116,Knee prosthesis,60,Male,19.7,No,Contaminated,179,Organ
+P117,Open reduction of fracture,20,Female,39.1,No,Clean-contaminated,103,Deep
+P118,Ovarian surgery,40,Female,38.6,No,Dirty,110,Superficial
+P119,Cardiac surgery,28,Female,31.9,No,Dirty,257,Organ
+P120,Kidney transplant,67,Male,28.3,No,Clean,205,Deep
+P121,Hip prosthesis,55,Male,28.6,Yes,Contaminated,113,Deep
+P122,Gallbladder surgery,33,Female,23.9,No,Clean-contaminated,111,Organ
+P123,Coronary artery bypass graft with both chest and donor site incisions,62,Male,36.8,Yes,Clean-contaminated,285,Deep
+P124,Abdominal aortic aneurysm repair,59,Male,30.5,No,Contaminated,97,Organ
+P125,Herniorrhaphy,49,Female,25.3,No,Clean,204,Deep
+P126,Spleen surgery,45,Female,29.9,No,Dirty,159,Deep
+P127,Exploratory laparotomy,57,Female,35.1,Yes,Contaminated,192,Deep
+P128,Limb amputation,28,Male,19.9,Yes,Contaminated,65,Deep
+P129,Carotid endarterectomy,28,Female,25.3,No,Dirty,222,Organ
+P130,Ventricular shunt,72,Female,36.1,No,Contaminated,131,Organ
+P131,Hip prosthesis,45,Male,26.1,Yes,Clean-contaminated,214,Superficial
+P132,Coronary artery bypass graft with chest incision only,59,Male,30.8,Yes,Contaminated,166,Deep
+P133,Vaginal hysterectomy,39,Female,18.6,No,Dirty,94,Organ
+P134,Craniotomy,73,Female,22.8,No,Contaminated,93,Deep
+P135,Breast surgery,58,Female,36.3,No,Clean-contaminated,249,Deep
+P136,Spleen surgery,48,Female,39.6,No,Clean,273,Deep
+P137,Coronary artery bypass graft with both chest and donor site incisions,50,Male,22.5,No,Clean,251,Superficial
+P138,Carotid endarterectomy,73,Female,26.5,No,Clean,188,Organ
+P139,Abdominal aortic aneurysm repair,28,Male,18.8,No,Clean-contaminated,244,Deep
+P140,Kidney surgery,55,Male,29.2,Yes,Contaminated,203,Superficial
+P141,Coronary artery bypass graft with chest incision only,68,Male,25.4,Yes,Clean,97,Superficial
+P142,Abdominal aortic aneurysm repair,65,Female,24.3,No,Clean-contaminated,147,Deep
+P143,Heart transplant,43,Female,37.6,Yes,Clean-contaminated,219,Organ
+P144,Shunt for dialysis,50,Male,22.8,No,Contaminated,252,Superficial
+P145,Thoracic surgery,37,Female,30.7,No,Dirty,61,Organ
+P146,Shunt for dialysis,23,Female,23.2,Yes,Contaminated,235,Deep
+P147,Thoracic surgery,56,Male,32.8,Yes,Contaminated,165,Superficial
+P148,Appendix surgery,43,Female,33.0,Yes,Dirty,60,Organ
+P149,Abdominal hysterectomy,51,Male,39.8,Yes,Clean,284,Organ
+P150,Vaginal hysterectomy,37,Female,29.3,Yes,Dirty,70,Organ
+P151,Carotid endarterectomy,30,Female,35.6,No,Contaminated,137,Superficial
+P152,Abdominal hysterectomy,54,Female,29.9,No,Contaminated,256,Superficial
+P153,Heart transplant,80,Female,37.4,No,Contaminated,131,Superficial
+P154,Laminectomy,50,Male,36.7,Yes,Clean,189,Deep
+P155,Ventricular shunt,46,Male,23.4,No,Dirty,253,Organ
+P156,Ventricular shunt,38,Male,37.8,Yes,Clean,133,Organ
+P157,Gallbladder surgery,34,Female,29.3,Yes,Clean,271,Deep
+P158,Open reduction of fracture,77,Male,20.7,Yes,Clean-contaminated,214,Organ
+P159,Kidney surgery,19,Female,30.9,No,Contaminated,181,Superficial
+P160,Gallbladder surgery,68,Female,39.7,Yes,Clean-contaminated,124,Superficial
+P161,Small bowel surgery,43,Female,21.5,Yes,Contaminated,115,Superficial
+P162,Pacemaker surgery,48,Female,37.9,Yes,Clean-contaminated,271,Superficial
+P163,Cesarean section,41,Female,28.1,No,Clean,110,Deep
+P164,Prostate surgery,66,Female,37.1,No,Clean,89,Superficial
+P165,Abdominal hysterectomy,71,Male,29.9,No,Contaminated,272,Organ
+P166,Knee prosthesis,49,Male,38.3,Yes,Contaminated,199,Superficial
+P167,Prostate surgery,23,Female,26.5,Yes,Dirty,272,Deep
+P168,Vaginal hysterectomy,60,Female,21.6,No,Contaminated,105,Superficial
+P169,Abdominal hysterectomy,18,Male,38.9,No,Clean,189,Organ
+P170,Spleen surgery,59,Male,29.7,Yes,Dirty,130,Superficial
+P171,Liver transplant,67,Male,34.0,No,Dirty,144,Deep
+P172,Abdominal aortic aneurysm repair,45,Female,19.2,Yes,Clean,203,Organ
+P173,Pacemaker surgery,67,Male,32.9,Yes,Dirty,72,Deep
+P174,Hip prosthesis,79,Female,19.7,No,Clean,275,Organ
+P175,Ventricular shunt,38,Female,38.3,Yes,Clean,194,Superficial
+P176,Laminectomy,37,Male,33.7,No,Contaminated,77,Deep
+P177,Cardiac surgery,45,Male,22.0,Yes,Contaminated,131,Superficial
+P178,Kidney surgery,48,Female,29.9,No,Dirty,159,Deep
+P179,Carotid endarterectomy,34,Female,32.9,Yes,Clean-contaminated,76,Superficial
+P180,Exploratory laparotomy,30,Male,39.3,No,Clean-contaminated,78,Deep
+P181,Vaginal hysterectomy,20,Male,28.1,No,Clean-contaminated,178,Deep
+P182,Carotid endarterectomy,35,Male,19.4,Yes,Contaminated,278,Organ
+P183,Gastric surgery,65,Male,20.2,No,Clean-contaminated,102,Superficial
+P184,Rectal surgery,69,Female,39.6,No,Clean,290,Deep
+P185,Exploratory laparotomy,64,Female,19.5,No,Clean-contaminated,178,Superficial
+P186,Thyroid and/or parathyroid surgery,51,Male,38.3,Yes,Contaminated,113,Organ
+P187,Breast surgery,20,Female,37.3,No,Clean-contaminated,191,Deep
+P188,Spleen surgery,67,Female,20.9,Yes,Clean,265,Organ
+P189,Peripheral vascular bypass surgery,69,Female,39.0,Yes,Dirty,80,Deep
+P190,Ventricular shunt,50,Female,26.6,No,Dirty,95,Superficial
+P191,"Bile duct, liver or pancreatic surgery",46,Female,37.7,No,Clean-contaminated,119,Deep
+P192,Pacemaker surgery,22,Male,38.6,No,Clean,180,Superficial
+P193,Coronary artery bypass graft with both chest and donor site incisions,22,Female,33.2,Yes,Clean-contaminated,225,Superficial
+P194,Thyroid and/or parathyroid surgery,25,Female,30.9,No,Dirty,254,Superficial
+P195,Kidney transplant,79,Male,37.8,No,Dirty,115,Organ
+P196,Spinal fusion,33,Male,19.0,Yes,Dirty,75,Organ
+P197,Breast surgery,72,Female,35.9,No,Clean,71,Superficial
+P198,Open reduction of fracture,31,Male,27.4,Yes,Clean,149,Deep
+P199,Kidney transplant,22,Female,32.8,Yes,Dirty,275,Deep
+P200,Thoracic surgery,32,Male,35.3,Yes,Dirty,280,Organ
+P201,Gallbladder surgery,62,Female,25.7,No,Contaminated,105,Superficial
+P202,Spinal fusion,21,Male,35.3,No,Clean,98,Deep
+P203,Appendix surgery,52,Male,31.4,Yes,Clean-contaminated,106,Organ
+P204,Open reduction of fracture,73,Female,38.2,No,Clean,121,Organ
+P205,Laminectomy,52,Female,21.5,Yes,Contaminated,196,Deep
+P206,Kidney transplant,35,Male,24.6,Yes,Clean,193,Superficial
+P207,Kidney transplant,56,Female,31.0,Yes,Clean-contaminated,233,Deep
+P208,Thyroid and/or parathyroid surgery,57,Female,21.4,Yes,Dirty,231,Organ
+P209,Thyroid and/or parathyroid surgery,65,Male,21.5,No,Contaminated,221,Organ
+P210,Hip prosthesis,39,Female,39.8,No,Contaminated,255,Organ
+P211,Thoracic surgery,46,Female,38.0,Yes,Clean,266,Superficial
+P212,Carotid endarterectomy,78,Female,22.8,Yes,Clean,193,Organ
+P213,Heart transplant,33,Male,34.3,Yes,Dirty,277,Deep
+P214,Colon surgery,38,Male,20.1,No,Clean,136,Deep
+P215,Cesarean section,31,Male,20.6,Yes,Dirty,112,Deep
+P216,Thyroid and/or parathyroid surgery,77,Female,36.2,Yes,Clean,141,Deep
+P217,Shunt for dialysis,19,Female,25.2,Yes,Clean-contaminated,76,Superficial
+P218,Kidney transplant,66,Male,33.8,Yes,Contaminated,96,Superficial
+P219,Neck surgery,65,Male,21.4,Yes,Clean,109,Superficial
+P220,Laminectomy,27,Female,30.2,Yes,Dirty,103,Superficial
+P221,Spleen surgery,23,Female,20.8,Yes,Dirty,155,Deep
+P222,Liver transplant,60,Male,30.5,No,Clean,221,Superficial
+P223,Knee prosthesis,47,Female,20.8,Yes,Clean,211,Deep
+P224,Thyroid and/or parathyroid surgery,58,Male,36.6,No,Clean-contaminated,277,Deep
+P225,Cesarean section,34,Male,36.3,Yes,Dirty,249,Organ
+P226,Laminectomy,44,Female,31.6,No,Contaminated,167,Deep
+P227,Coronary artery bypass graft with chest incision only,36,Female,29.6,No,Clean-contaminated,171,Deep
+P228,Ventricular shunt,41,Male,21.5,Yes,Dirty,218,Organ
+P229,Vaginal hysterectomy,45,Female,25.3,No,Contaminated,188,Deep
+P230,Kidney transplant,42,Female,36.9,No,Contaminated,133,Organ
+P231,Kidney transplant,71,Female,28.4,No,Clean-contaminated,138,Organ
+P232,Coronary artery bypass graft with chest incision only,78,Male,25.9,No,Clean,125,Superficial
+P233,Prostate surgery,69,Male,23.3,Yes,Dirty,217,Organ
+P234,Shunt for dialysis,79,Female,22.2,Yes,Contaminated,139,Organ
+P235,Exploratory laparotomy,55,Male,25.7,No,Dirty,192,Superficial
+P236,Shunt for dialysis,42,Female,33.6,Yes,Clean-contaminated,102,Superficial
+P237,"Bile duct, liver or pancreatic surgery",45,Female,31.5,Yes,Contaminated,176,Superficial
+P238,Thoracic surgery,47,Male,20.6,No,Contaminated,283,Superficial
+P239,Breast surgery,41,Female,24.7,Yes,Clean-contaminated,137,Superficial
+P240,Liver transplant,21,Male,37.5,No,Contaminated,152,Superficial
+P241,Hip prosthesis,42,Female,27.4,Yes,Clean-contaminated,134,Organ
+P242,Liver transplant,59,Male,32.3,No,Dirty,219,Superficial
+P243,Neck surgery,35,Male,24.6,Yes,Contaminated,197,Deep
+P244,Gallbladder surgery,33,Male,28.4,No,Clean,101,Organ
+P245,Abdominal aortic aneurysm repair,57,Female,26.9,No,Dirty,214,Organ
+P246,Knee prosthesis,57,Male,19.0,No,Clean,64,Deep
+P247,Kidney surgery,47,Female,30.0,Yes,Dirty,198,Deep
+P248,Herniorrhaphy,20,Male,27.5,No,Clean-contaminated,210,Superficial
+P249,Shunt for dialysis,18,Female,33.3,No,Dirty,231,Organ
+P250,Carotid endarterectomy,41,Male,34.9,Yes,Contaminated,63,Superficial
+P251,Abdominal hysterectomy,69,Female,37.7,No,Dirty,84,Superficial
+P252,Ventricular shunt,50,Female,31.4,No,Contaminated,217,Deep
+P253,Carotid endarterectomy,60,Female,28.4,Yes,Contaminated,106,Deep
+P254,Laminectomy,75,Female,25.9,No,Clean-contaminated,163,Deep
+P255,Thyroid and/or parathyroid surgery,24,Male,23.4,No,Clean,188,Deep
+P256,Colon surgery,59,Male,35.5,No,Dirty,100,Organ
+P257,Cesarean section,66,Female,38.8,Yes,Dirty,125,Deep
+P258,Pacemaker surgery,42,Male,33.2,No,Clean,92,Organ
+P259,Kidney surgery,27,Female,31.8,Yes,Clean-contaminated,145,Superficial
+P260,Kidney transplant,44,Female,26.9,Yes,Dirty,161,Organ
+P261,Ovarian surgery,18,Female,32.7,Yes,Clean-contaminated,169,Deep
+P262,Ventricular shunt,27,Female,36.9,Yes,Clean-contaminated,88,Organ
+P263,"Bile duct, liver or pancreatic surgery",40,Female,24.1,No,Contaminated,182,Deep
+P264,Heart transplant,18,Male,37.3,No,Contaminated,221,Organ
+P265,Coronary artery bypass graft with chest incision only,58,Male,25.0,Yes,Clean-contaminated,231,Superficial
+P266,Craniotomy,24,Male,24.4,Yes,Dirty,140,Organ
+P267,Hip prosthesis,44,Female,30.8,Yes,Clean,122,Organ
+P268,Coronary artery bypass graft with chest incision only,38,Male,31.1,No,Contaminated,269,Superficial
+P269,Cesarean section,40,Female,30.4,No,Contaminated,122,Organ
+P270,Spleen surgery,36,Male,33.7,No,Contaminated,294,Organ
+P271,Craniotomy,22,Male,37.1,Yes,Dirty,90,Organ
+P272,Shunt for dialysis,80,Male,22.2,Yes,Contaminated,135,Deep
+P273,Ovarian surgery,70,Female,19.0,No,Contaminated,243,Deep
+P274,Craniotomy,49,Male,36.0,No,Clean-contaminated,130,Deep
+P275,Coronary artery bypass graft with chest incision only,25,Male,35.3,Yes,Clean,177,Superficial
+P276,Spinal fusion,71,Male,32.8,Yes,Clean,297,Organ
+P277,Heart transplant,40,Male,23.8,No,Contaminated,141,Deep
+P278,Hip prosthesis,79,Female,31.0,No,Contaminated,80,Deep
+P279,Breast surgery,28,Female,28.2,Yes,Dirty,203,Organ
+P280,Coronary artery bypass graft with chest incision only,59,Female,35.3,Yes,Contaminated,271,Superficial
+P281,Ovarian surgery,36,Female,19.5,Yes,Clean,74,Superficial
+P282,Knee prosthesis,79,Female,23.8,Yes,Dirty,149,Deep
+P283,Shunt for dialysis,35,Male,29.4,Yes,Contaminated,284,Organ
+P284,Breast surgery,68,Female,37.5,Yes,Clean-contaminated,266,Organ
+P285,Breast surgery,68,Female,39.2,No,Clean-contaminated,133,Organ
+P286,Peripheral vascular bypass surgery,23,Female,32.7,Yes,Dirty,245,Organ
+P287,"Bile duct, liver or pancreatic surgery",25,Male,36.7,Yes,Clean-contaminated,276,Organ
+P288,Ventricular shunt,53,Male,26.2,No,Contaminated,259,Superficial
+P289,Liver transplant,69,Female,23.4,Yes,Dirty,110,Deep
+P290,Open reduction of fracture,71,Male,22.7,No,Clean-contaminated,280,Deep
+P291,Liver transplant,80,Female,20.4,No,Contaminated,152,Superficial
+P292,Abdominal aortic aneurysm repair,34,Female,25.6,No,Contaminated,100,Deep
+P293,Breast surgery,70,Male,20.8,No,Clean-contaminated,260,Deep
+P294,Spleen surgery,23,Female,38.3,No,Dirty,99,Organ
+P295,Gastric surgery,42,Female,28.1,Yes,Contaminated,270,Superficial
+P296,Prostate surgery,19,Female,33.2,No,Clean-contaminated,237,Organ
+P297,Shunt for dialysis,72,Male,28.6,No,Contaminated,195,Organ
+P298,Heart transplant,27,Female,26.5,Yes,Dirty,227,Superficial
+P299,Hip prosthesis,67,Male,34.4,Yes,Clean-contaminated,163,Deep
+P300,Open reduction of fracture,39,Female,19.7,No,Clean,93,Organ
+P301,Gastric surgery,25,Female,19.1,Yes,Contaminated,146,Deep
+P302,Heart transplant,73,Male,39.0,No,Clean,63,Organ
+P303,Spleen surgery,74,Male,25.3,Yes,Dirty,209,Superficial
+P304,Prostate surgery,21,Female,21.2,No,Dirty,118,Superficial
+P305,Cardiac surgery,65,Male,30.8,No,Clean,243,Deep
+P306,Gastric surgery,35,Male,31.3,No,Clean,158,Deep
+P307,Cesarean section,47,Male,29.6,Yes,Contaminated,170,Organ
+P308,Cardiac surgery,75,Female,32.9,No,Clean-contaminated,135,Superficial
+P309,Open reduction of fracture,54,Female,39.4,Yes,Clean-contaminated,275,Superficial
+P310,Neck surgery,52,Female,21.1,No,Contaminated,169,Deep
+P311,Breast surgery,40,Male,19.2,Yes,Clean,83,Organ
+P312,Limb amputation,67,Female,36.5,No,Clean-contaminated,225,Deep
+P313,Thyroid and/or parathyroid surgery,33,Female,32.4,No,Clean,193,Superficial
+P314,Open reduction of fracture,74,Male,37.9,Yes,Clean-contaminated,92,Organ
+P315,Small bowel surgery,24,Female,18.7,Yes,Clean,189,Superficial
+P316,Cardiac surgery,64,Male,20.6,No,Contaminated,221,Organ
+P317,Spinal fusion,63,Female,30.9,No,Contaminated,134,Deep
+P318,Thyroid and/or parathyroid surgery,65,Female,24.1,Yes,Contaminated,161,Organ
+P319,Coronary artery bypass graft with both chest and donor site incisions,34,Male,38.1,Yes,Dirty,86,Deep
+P320,Neck surgery,72,Male,30.6,Yes,Clean-contaminated,170,Deep
+P321,Thoracic surgery,70,Female,22.1,No,Clean,300,Deep
+P322,Coronary artery bypass graft with both chest and donor site incisions,72,Male,39.8,Yes,Clean,169,Superficial
+P323,Limb amputation,63,Male,36.1,Yes,Contaminated,78,Deep
+P324,Limb amputation,36,Male,37.9,No,Clean-contaminated,197,Deep
+P325,Ventricular shunt,31,Female,26.8,No,Dirty,73,Organ
+P326,Knee prosthesis,62,Female,33.1,Yes,Contaminated,100,Deep
+P327,Rectal surgery,28,Female,35.7,Yes,Clean,92,Superficial
+P328,Limb amputation,64,Female,37.9,Yes,Dirty,265,Organ
+P329,Exploratory laparotomy,34,Male,24.6,No,Clean-contaminated,251,Superficial
+P330,Ventricular shunt,52,Female,34.3,Yes,Dirty,291,Superficial
+P331,Abdominal aortic aneurysm repair,48,Female,33.6,Yes,Dirty,63,Deep
+P332,Breast surgery,56,Female,26.7,No,Contaminated,120,Superficial
+P333,Breast surgery,30,Male,27.0,Yes,Clean,141,Deep
+P334,Spinal fusion,77,Female,37.2,No,Clean-contaminated,269,Organ
+P335,Breast surgery,77,Male,29.8,No,Clean,90,Deep
+P336,Ovarian surgery,28,Female,30.9,Yes,Contaminated,269,Deep
+P337,Knee prosthesis,39,Female,33.9,No,Clean,138,Deep
+P338,Spinal fusion,78,Male,24.7,Yes,Clean,165,Organ
+P339,Peripheral vascular bypass surgery,31,Female,32.3,No,Contaminated,227,Superficial
+P340,Heart transplant,21,Female,25.1,Yes,Clean,99,Deep
+P341,Shunt for dialysis,28,Male,30.2,Yes,Dirty,222,Organ
+P342,Limb amputation,75,Female,29.3,No,Clean-contaminated,233,Deep
+P343,Breast surgery,50,Female,37.2,No,Clean,86,Superficial
+P344,Shunt for dialysis,48,Male,31.0,No,Dirty,209,Superficial
+P345,Gallbladder surgery,46,Male,28.1,Yes,Contaminated,74,Organ
+P346,Knee prosthesis,65,Female,27.8,Yes,Contaminated,98,Organ
+P347,Kidney transplant,45,Female,36.6,Yes,Contaminated,97,Deep
+P348,Heart transplant,41,Male,35.1,No,Contaminated,285,Superficial
+P349,Thyroid and/or parathyroid surgery,54,Male,25.9,No,Clean,150,Organ
+P350,Craniotomy,74,Female,29.5,Yes,Dirty,68,Deep
+P351,Appendix surgery,66,Male,28.3,Yes,Dirty,136,Superficial
+P352,Rectal surgery,63,Female,31.8,Yes,Contaminated,83,Deep
+P353,Knee prosthesis,52,Male,31.3,No,Contaminated,267,Deep
+P354,"Bile duct, liver or pancreatic surgery",57,Female,25.8,No,Dirty,219,Deep
+P355,Carotid endarterectomy,31,Male,37.8,No,Clean,132,Superficial
+P356,Spinal fusion,27,Male,33.9,No,Clean-contaminated,228,Deep
+P357,Vaginal hysterectomy,54,Female,38.8,No,Clean,204,Deep
+P358,Coronary artery bypass graft with chest incision only,24,Male,30.3,Yes,Contaminated,247,Organ
+P359,Carotid endarterectomy,49,Male,22.4,No,Dirty,279,Organ
+P360,Thyroid and/or parathyroid surgery,70,Female,39.5,Yes,Clean,115,Organ
+P361,Gallbladder surgery,44,Female,23.7,Yes,Contaminated,240,Deep
+P362,Ovarian surgery,48,Male,19.7,No,Dirty,105,Deep
+P363,Ventricular shunt,73,Female,25.0,Yes,Clean,137,Superficial
+P364,Kidney transplant,45,Male,22.6,No,Dirty,97,Organ
+P365,Abdominal aortic aneurysm repair,30,Female,39.5,Yes,Clean,61,Superficial
+P366,Liver transplant,50,Male,38.7,No,Clean,75,Deep
+P367,Prostate surgery,39,Female,39.0,No,Dirty,259,Organ
+P368,Exploratory laparotomy,36,Male,20.4,Yes,Contaminated,114,Deep
+P369,Kidney surgery,21,Male,27.4,Yes,Clean,101,Deep
+P370,Colon surgery,25,Male,25.2,Yes,Clean,140,Organ
+P371,Limb amputation,60,Female,23.5,Yes,Dirty,108,Superficial
+P372,Liver transplant,80,Female,28.7,No,Contaminated,139,Deep
+P373,Appendix surgery,74,Female,21.8,No,Dirty,70,Organ
+P374,Thyroid and/or parathyroid surgery,25,Male,34.4,Yes,Contaminated,230,Deep
+P375,Herniorrhaphy,50,Male,26.5,No,Contaminated,232,Deep
+P376,Ventricular shunt,77,Male,24.6,Yes,Clean,231,Superficial
+P377,Kidney transplant,40,Male,21.7,Yes,Clean-contaminated,139,Deep
+P378,Pacemaker surgery,38,Female,19.2,No,Clean-contaminated,106,Deep
+P379,Cardiac surgery,78,Female,36.6,No,Clean-contaminated,201,Deep
+P380,Open reduction of fracture,18,Male,29.8,Yes,Dirty,69,Organ
+P381,Knee prosthesis,49,Male,36.6,No,Clean-contaminated,115,Superficial
+P382,Rectal surgery,78,Male,33.2,No,Dirty,192,Organ
+P383,Cardiac surgery,36,Female,22.2,Yes,Dirty,104,Superficial
+P384,Breast surgery,71,Male,28.3,No,Dirty,193,Superficial
+P385,Shunt for dialysis,63,Male,26.7,No,Clean,147,Superficial
+P386,Colon surgery,67,Male,21.9,No,Clean-contaminated,292,Superficial
+P387,Small bowel surgery,27,Female,35.5,Yes,Contaminated,191,Superficial
+P388,Gallbladder surgery,35,Female,34.2,Yes,Dirty,197,Deep
+P389,Coronary artery bypass graft with chest incision only,24,Female,30.0,Yes,Clean,219,Deep
+P390,Coronary artery bypass graft with both chest and donor site incisions,69,Female,18.5,Yes,Clean,289,Superficial
+P391,Neck surgery,18,Female,22.3,No,Contaminated,156,Superficial
+P392,Shunt for dialysis,23,Female,35.0,Yes,Clean-contaminated,245,Deep
+P393,Coronary artery bypass graft with both chest and donor site incisions,37,Male,23.6,No,Dirty,74,Superficial
+P394,Neck surgery,73,Male,24.6,No,Dirty,219,Superficial
+P395,Open reduction of fracture,39,Male,25.5,Yes,Clean-contaminated,136,Superficial
+P396,Kidney surgery,51,Female,39.9,Yes,Dirty,270,Deep
+P397,Liver transplant,47,Male,32.0,Yes,Clean-contaminated,191,Superficial
+P398,Liver transplant,47,Female,21.2,No,Clean-contaminated,156,Organ
+P399,Carotid endarterectomy,78,Male,23.6,No,Dirty,130,Organ
+P400,Spleen surgery,51,Male,18.5,Yes,Dirty,262,Superficial
+P401,Carotid endarterectomy,52,Female,32.3,Yes,Contaminated,60,Organ
+P402,Small bowel surgery,38,Male,21.9,Yes,Contaminated,228,Deep
+P403,Thoracic surgery,43,Male,38.9,No,Clean,160,Organ
+P404,Shunt for dialysis,50,Female,33.2,Yes,Clean-contaminated,114,Deep
+P405,Thoracic surgery,44,Male,20.6,No,Clean,199,Organ
+P406,Herniorrhaphy,30,Male,24.8,Yes,Clean,118,Organ
+P407,Carotid endarterectomy,56,Female,35.9,No,Dirty,279,Deep
+P408,Cesarean section,19,Male,22.5,No,Contaminated,108,Organ
+P409,Appendix surgery,19,Female,30.0,Yes,Clean,90,Superficial
+P410,Abdominal hysterectomy,65,Female,20.0,No,Clean,167,Organ
+P411,Herniorrhaphy,41,Male,18.7,Yes,Clean,69,Superficial
+P412,Liver transplant,46,Female,36.7,Yes,Clean-contaminated,68,Deep
+P413,Vaginal hysterectomy,39,Female,26.3,Yes,Clean,228,Superficial
+P414,Coronary artery bypass graft with chest incision only,78,Male,25.8,Yes,Contaminated,145,Deep
+P415,Heart transplant,52,Female,30.2,Yes,Clean-contaminated,95,Organ
+P416,Cesarean section,75,Female,37.2,No,Clean-contaminated,266,Organ
+P417,Rectal surgery,26,Female,35.9,No,Clean-contaminated,128,Organ
+P418,Peripheral vascular bypass surgery,78,Male,26.9,Yes,Clean-contaminated,258,Deep
+P419,Open reduction of fracture,67,Female,35.3,No,Dirty,200,Organ
+P420,Neck surgery,29,Male,20.3,Yes,Clean-contaminated,79,Superficial
+P421,Knee prosthesis,50,Female,21.2,No,Clean,187,Organ
+P422,Vaginal hysterectomy,58,Male,32.6,Yes,Clean-contaminated,226,Deep
+P423,Small bowel surgery,33,Female,35.4,No,Clean-contaminated,147,Superficial
+P424,Pacemaker surgery,23,Female,26.8,Yes,Clean-contaminated,227,Superficial
+P425,Prostate surgery,62,Male,28.0,No,Clean-contaminated,108,Organ
+P426,Exploratory laparotomy,49,Female,26.3,Yes,Clean,210,Superficial
+P427,Peripheral vascular bypass surgery,33,Female,25.6,Yes,Clean,285,Organ
+P428,Rectal surgery,48,Female,26.0,No,Dirty,299,Superficial
+P429,Breast surgery,64,Female,37.5,No,Clean,286,Superficial
+P430,Appendix surgery,58,Male,35.5,No,Clean-contaminated,268,Deep
+P431,Gastric surgery,68,Male,25.2,No,Clean,222,Deep
+P432,Limb amputation,48,Female,33.6,Yes,Dirty,204,Organ
+P433,Herniorrhaphy,29,Male,25.9,Yes,Clean-contaminated,104,Deep
+P434,Thoracic surgery,38,Female,25.8,No,Contaminated,268,Deep
+P435,Shunt for dialysis,35,Female,19.1,Yes,Contaminated,180,Superficial
+P436,Limb amputation,38,Male,31.3,No,Dirty,149,Superficial
+P437,Cesarean section,47,Male,30.9,Yes,Contaminated,97,Deep
+P438,Kidney surgery,55,Female,26.0,Yes,Clean-contaminated,144,Superficial
+P439,Kidney transplant,34,Male,27.2,No,Clean,281,Deep
+P440,Pacemaker surgery,77,Male,29.9,No,Dirty,84,Superficial
+P441,Gallbladder surgery,73,Female,39.6,No,Clean-contaminated,161,Deep
+P442,Vaginal hysterectomy,36,Male,38.8,No,Clean-contaminated,147,Deep
+P443,Peripheral vascular bypass surgery,29,Male,25.8,No,Clean,211,Deep
+P444,Thyroid and/or parathyroid surgery,41,Male,24.5,No,Dirty,150,Deep
+P445,Peripheral vascular bypass surgery,32,Male,39.8,Yes,Dirty,97,Organ
+P446,Spinal fusion,70,Male,26.6,No,Clean,62,Superficial
+P447,Limb amputation,21,Female,38.6,No,Dirty,265,Deep
+P448,Liver transplant,58,Female,19.4,Yes,Dirty,203,Organ
+P449,Kidney surgery,61,Male,33.6,Yes,Dirty,193,Deep
+P450,Ventricular shunt,79,Male,36.8,Yes,Clean-contaminated,239,Deep
+P451,Abdominal hysterectomy,77,Female,36.2,No,Contaminated,106,Organ
+P452,Spinal fusion,29,Male,22.9,No,Dirty,161,Organ
+P453,Abdominal hysterectomy,62,Female,37.5,No,Contaminated,191,Deep
+P454,Spleen surgery,61,Male,34.2,No,Dirty,205,Superficial
+P455,Pacemaker surgery,58,Female,31.5,No,Dirty,295,Deep
+P456,Rectal surgery,42,Male,33.7,Yes,Dirty,291,Deep
+P457,Pacemaker surgery,30,Female,22.7,No,Dirty,212,Organ
+P458,Kidney surgery,24,Male,30.1,Yes,Contaminated,261,Organ
+P459,Shunt for dialysis,64,Male,34.0,Yes,Clean-contaminated,236,Organ
+P460,Abdominal aortic aneurysm repair,78,Female,19.0,No,Clean-contaminated,97,Deep
+P461,Herniorrhaphy,47,Male,23.0,Yes,Contaminated,263,Deep
+P462,Heart transplant,46,Female,34.8,No,Clean-contaminated,182,Deep
+P463,"Bile duct, liver or pancreatic surgery",33,Female,28.2,No,Clean,198,Organ
+P464,Spleen surgery,75,Male,30.0,Yes,Contaminated,168,Superficial
+P465,Open reduction of fracture,59,Male,36.9,Yes,Clean-contaminated,171,Deep
+P466,Liver transplant,55,Female,36.2,No,Contaminated,64,Organ
+P467,Thoracic surgery,57,Male,29.0,No,Clean-contaminated,181,Superficial
+P468,Peripheral vascular bypass surgery,19,Male,37.6,Yes,Clean,236,Deep
+P469,Neck surgery,50,Female,21.3,Yes,Clean,287,Deep
+P470,Open reduction of fracture,47,Male,29.8,No,Clean-contaminated,104,Organ
+P471,Spleen surgery,61,Male,23.0,No,Contaminated,137,Organ
+P472,Vaginal hysterectomy,77,Female,29.0,Yes,Dirty,64,Deep
+P473,Prostate surgery,77,Female,19.5,No,Clean-contaminated,232,Superficial
+P474,Rectal surgery,39,Female,39.3,No,Contaminated,125,Deep
+P475,Pacemaker surgery,21,Female,39.4,Yes,Clean-contaminated,165,Superficial
+P476,Liver transplant,72,Male,28.6,No,Contaminated,164,Organ
+P477,Vaginal hysterectomy,59,Female,20.2,No,Clean,203,Superficial
+P478,Ovarian surgery,20,Male,24.4,No,Dirty,233,Organ
+P479,Pacemaker surgery,60,Female,34.6,Yes,Clean,66,Deep
+P480,Gallbladder surgery,71,Female,33.9,Yes,Clean-contaminated,266,Organ
+P481,Neck surgery,78,Female,30.0,No,Clean,156,Deep
+P482,Kidney transplant,72,Female,24.7,Yes,Clean,275,Deep
+P483,Laminectomy,64,Male,23.3,No,Clean,148,Organ
+P484,Spinal fusion,46,Male,23.0,Yes,Contaminated,182,Superficial
+P485,Shunt for dialysis,57,Male,32.1,No,Dirty,235,Deep
+P486,Breast surgery,26,Male,29.7,No,Dirty,215,Deep
+P487,Kidney transplant,55,Female,23.5,No,Clean-contaminated,266,Superficial
+P488,Ventricular shunt,74,Female,19.0,No,Contaminated,131,Deep
+P489,Vaginal hysterectomy,40,Female,22.9,No,Clean,279,Deep
+P490,Appendix surgery,53,Male,28.7,No,Contaminated,255,Deep
+P491,Coronary artery bypass graft with both chest and donor site incisions,74,Male,35.3,Yes,Clean,268,Organ
+P492,Heart transplant,32,Female,21.6,Yes,Contaminated,236,Deep
+P493,Thyroid and/or parathyroid surgery,57,Male,39.2,Yes,Clean,180,Superficial
+P494,Craniotomy,49,Female,22.4,No,Contaminated,62,Organ
+P495,Heart transplant,33,Female,21.0,Yes,Dirty,243,Organ
+P496,Rectal surgery,41,Male,31.5,Yes,Clean-contaminated,194,Deep
+P497,Small bowel surgery,56,Female,23.0,No,Dirty,114,Superficial
+P498,Coronary artery bypass graft with chest incision only,22,Female,32.9,Yes,Contaminated,186,Superficial
+P499,Cesarean section,75,Female,19.2,Yes,Dirty,298,Organ
+P500,Heart transplant,62,Male,38.4,No,Clean-contaminated,270,Organ
